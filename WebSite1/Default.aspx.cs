@@ -11,7 +11,7 @@ using System.Data;
 
 public partial class Default : System.Web.UI.Page
 {
-    SqlConnection connection = new SqlConnection("server=89.252.181.210\\MSSQLSERVER2017;database=kadirdur_coin;UID=kadirdur_coin;pwd=Kanarya12;MultipleActiveResultSets=True");
+    SqlConnection connection = new SqlConnection("server=89.252.181.210\\MSSQLSERVER2017;database=databasenamme;UID=tablename;pwd=password;MultipleActiveResultSets=True");
     protected void Page_Load(object sender, EventArgs e)
     {
        
